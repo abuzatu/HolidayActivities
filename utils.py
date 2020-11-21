@@ -1,7 +1,4 @@
-import sys
-import numpy as np
 import logging
-import copy
 import functools
 import time
 
@@ -22,7 +19,7 @@ def timing(f):
         return result
     # done inner function
     return wrapper
-# done functionx
+# done function
 
 def get_list_tuple_a(list_line):
     counter = 0
