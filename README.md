@@ -7,8 +7,7 @@ To run, simply run
 python holiday_activities.py
 ```
 
-or open the Jupyter Notebook with 
+or simply run the kernel in the Jupyter Notebook
 ```
 jupyter notebook holiday_activities.ipynb
 ```
-and then run all the Kernel. 
