@@ -156,5 +156,5 @@ def process_list_line(list_line):
     list_tuple_a = get_list_tuple_a(list_line)
     list_day = create_schedule(list_tuple_a)
     logging.info(f"The solution, the number of days needed for all the activities, is: {len(list_day)}.")
-    #logging.info(f"The schedule is as follows (row = a day; columns = an hour from the day; 1 = activity, 0 = free):\n{get_string_from_list_day(list_day)}")
+    logging.info(f"The schedule is as follows (row = a day; columns = an hour from the day; 1 = activity, 0 = free):\n{get_string_from_list_day(list_day)}")
     return len(list_day)
